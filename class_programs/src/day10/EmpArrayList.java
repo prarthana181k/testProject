@@ -6,11 +6,11 @@ public class EmpArrayList {
 
 	public static void main(String[] args) {
 		ArrayList<Employee> emplist=new ArrayList<Employee>();
-		emplist.add(new Employee(1,"Megha","Data Scientist",100000,21));
-		emplist.add(new Employee(2,"Harry", "dev", 100000,22));
-		emplist.add(new Employee(3,"Ron", "hr", 100000,22));
-		emplist.add(new Employee(4,"Hermoine", "manager", 100000,22));
-		emplist.add(new Employee(5,"Sirius", "CA", 100000,22));
+		emplist.add(new Employee(1,"Megha","Data Scientist",100000,21, null));
+		emplist.add(new Employee(2,"Harry", "dev", 100000,22, null));
+		emplist.add(new Employee(3,"Ron", "hr", 100000,22, null));
+		emplist.add(new Employee(4,"Hermoine", "manager", 100000,22, null));
+		emplist.add(new Employee(5,"Sirius", "CA", 100000,22, null));
 		
 		//System.err.println("employee list" +emplist);
 		
